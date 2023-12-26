@@ -184,6 +184,30 @@
             "required": false,
             "value": false,
             "selected": false
+        },
+        {
+            "id": "date_time",
+            "type": "string",
+            "format": "datetime",
+            "inputType": "datetime-local",
+            "label": "Date Time",
+            "description": null,
+            "labelHTML": null,
+            "icon": "sicon-calendar-time",
+            "value": "2021-10-01T15:23",
+            "required": false
+        },
+        {
+            "id": "time",
+            "type": "string",
+            "format": "time",
+            "inputType": "time",
+            "label": "Time",
+            "description": null,
+            "labelHTML": null,
+            "icon": "sicon-time",
+            "value": "01:00",
+            "required": false
         }
     ],
     "components": [
