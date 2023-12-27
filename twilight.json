@@ -40,7 +40,8 @@
             "type": "boolean",
             "id": "is_more_button_enabled",
             "label": "عرض (زر الكل) في الصفحة الرئيسية",
-            "format": "switch"
+            "format": "switch",
+            "selected": true
         },
         {
             "type": "static",
@@ -106,9 +107,9 @@
             "description": null,
             "id": "footer_is_dark",
             "format": "switch",
-            "required": false,
+            "required": true,
             "value": true,
-            "selected": false
+            "selected": true
         },
         {
             "type": "static",
